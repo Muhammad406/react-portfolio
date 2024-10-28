@@ -73,7 +73,7 @@ const Work = () => {
                             <div className="work-card-image">
                                 <div className="work-card-image-wrapper">
                                     <img
-                                        src={`./assets/work/${item.image}`}
+                                        src={`./assets/work/${item.image}`}// for deployment add ./react-portfolio/assets/work/${item.image} instead
                                         alt={item.title}
                                         loading="lazy"
                                         decoding="async"
